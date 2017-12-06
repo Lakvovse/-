@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    color: yellowgreen;
+    text-decoration: none;
+}
+/*背景开始*/
+body{
+    background-image: url(../Source-material/img/chitang.jpg);
+    background-size: cover;
+    width: 100%;
+}
+/*end*/
+
+/*音频播放*/
+.audio{
+    float: right;
+    margin-right: 170px;
+    position: relative;
+}
+/*end*/
+
+/*列表项开始*/
+.list{
+    margin-left: 40px;
+    line-height: 80px;
+    position: absolute;
+    width: 260px;
+}
+.list ul{
+    margin-top: 300px;
+}
+.list ul,ol{
+    letter-spacing:20px;
+    margin-bottom: 10px;
+}
+.list ul .tw{
+    text-indent: 0.3em;
+}
+.list ul .he{
+    text-indent: 2.4em;
+}
+.list ul #yj{
+    text-indent: 3em;
+}
+.list ul #wz{
+    text-indent: 3.5em;
+}
+.list ul #xd{
+    text-indent: 3.2em;
+}
+
+/*end*/
+
+/*忌语*/
+.jy{
+    position: absolute;
+    margin: 100px 320px  0;
+    transition-duration:10s;
+    transition-delay:1s;
+    transition-timing-function:linear;
+
+}
+.yj h1{
+    color: yellowgreen;
+    font-size: 60px;
+}
+/*end*/
